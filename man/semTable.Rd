@@ -23,20 +23,21 @@ suffix, either "tex", "html" and "csv".}
 
 \item{paramSets}{Parameter sets to be included for each fitted
 object.  Valid values of the vector are \code{"all"} or a any
-of the following: \code{c("loadings", "slopes", "intercepts",
-"residualvariances", "residualcovariances", "latentmeans",
-"latentvariances", "latentcovariances", "thresholds",
-"constructed", "fits")}. Default is "all", any of the
-estimates present in the fitted model that are listed in the
-previous sentence will be included in the output. For the sake
-of simplicity, we now allow one vector here, which applies to
-all models in the object list.}
+of the following: \code{c("composites", "loadings", "slopes",
+"intercepts", "residualvariances", "residualcovariances",
+"latentmeans", "latentvariances", "latentcovariances",
+"thresholds", "constructed", "fits")}. Default is "all", any
+of the estimates present in the fitted model that are listed
+in the previous sentence will be included in the output. For
+the sake of simplicity, we now allow one vector here, which
+applies to all models in the object list.}
 
 \item{paramSetLabels}{Named vector, used to supply alternative
 pretty printing labels for parameter sets. The default values
-are \code{c("loadings"= "Factor Loadings", "slopes" =
-"Regression Slopes", "intercepts" = "Intercepts", "means"=
-"Means", "residualvariances" = "Residual Variances",
+are \code{c("composites" = "Composites",
+"loadings"= "Factor Loadings", "slopes" = "Regression Slopes",
+"intercepts" = "Intercepts", "means"= "Means",
+"residualvariances" = "Residual Variances",
 "residualcovariances" = "Residual Covariances", "variances" =
 "Variances", "latentvariances" = "Latent Variances",
 "latentcovariances" = "Latent Covariances", "latentmeans" =
@@ -142,6 +143,7 @@ One can specify "all", which means that all types of parameters that
 we can find in the fitted model are presented.  Otherwise, a subset
 of parameter sets can be chosen by the user.
 \itemize{
+\item "composites" are predictor coefficients in formative constructs
 \item "loadings" are the factor loadings in the model.
 \item "slopes" are the regression slopes in the model.
 \item "intercepts" are the estimated constants in the measurement

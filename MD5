@@ -1,8 +1,8 @@
-003b9bcecd3219a5acfe02be17530c94 *DESCRIPTION
+4337c9ceb1923f17b647d8d05193bcf7 *DESCRIPTION
 11c86888c131824ad1e64b19456bdd5f *NAMESPACE
 ebfb33d0e0f8175703a4c83d390c8f56 *R/escape.R
 15c56c0f4027126a69933e653aab7403 *R/modelcomparison.R
-151c4f76027ee126951d97a357ef3f30 *R/semTable.R
+292e2cd819c78f2293967886345edb66 *R/semTable.R
 f06ecd392c7ee3a85af369c1e4ec80fa *R/starsig.R
 652c8f60fa9f7f0b799ba60fa5314de3 *build/vignette.rds
 db52c40426edfae17ebb4f4fc4ff56e8 *inst/cfa/cc1.rds
@@ -11,13 +11,13 @@ bcc7c62483dbbc7307098c38a59878b9 *inst/cfa/cc2.rds
 2f2dfe87f6e2c9189dbe4bce50be6bfe *inst/cfa/cc4.rds
 ae4320ac8d6fa0c3df0354c50733aa53 *inst/doc/semtable.R
 33f48555a77e31ccb8e7b5b6ea3a4718 *inst/doc/semtable.Rnw
-b1c98c10f49ed5981d1092a8a48e7988 *inst/doc/semtable.pdf
+d5f85f1be4d06a335f43362d5773b332 *inst/doc/semtable.pdf
 45c9eb543fbf8f72ff76f618cd83c4cc *man/compareLavaan.Rd
 8b94759af88dec5d48760d3a72196680 *man/detectNested.Rd
 c27c8468fe5104dac71db3b085dd3e29 *man/escape.Rd
 ac0c7ccc8c76b66ff8a5d5e32c920f4d *man/markupConvert.Rd
 4d9d692b59a1be21c74f4ed40d65b62a *man/print.kutable.Rd
-016aa1993d995bf710ca4053afd8ae89 *man/semTable.Rd
+190f3903ce663b6c83055e60130a928e *man/semTable.Rd
 91046f5d301f91484750857d29d36a7f *man/starsig.Rd
 59d15ea523eb769f4d04a8ad73531e48 *man/testtable.Rd
 9f66c4d272d4f0ccf7023f4966c1fffc *vignettes/R.bib
