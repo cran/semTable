@@ -1,8 +1,8 @@
 Package: semTable
 Type: Package
 Title: Structural Equation Modeling Tables
-Version: 1.6
-Date: 2019-06-06
+Version: 1.7
+Date: 2020-04-12
 Authors@R: c(person("Paul","Johnson",email="pauljohn@ku.edu",role = c("aut", "cre")),
 		   person("Benjamin","Kite",email="bakite@ku.edu",role="aut"))
 Maintainer: Paul Johnson <pauljohn@ku.edu>
@@ -19,8 +19,8 @@ RoxygenNote: 6.1.1
 LazyData: TRUE
 VignetteBuilder: stationery
 NeedsCompilation: no
-Packaged: 2019-06-07 00:54:27 UTC; pauljohn
+Packaged: 2020-04-12 17:21:45 UTC; pauljohn
 Author: Paul Johnson [aut, cre],
   Benjamin Kite [aut]
 Repository: CRAN
-Date/Publication: 2019-06-07 18:30:02 UTC
+Date/Publication: 2020-04-12 18:30:02 UTC
