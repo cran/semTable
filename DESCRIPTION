@@ -1,8 +1,8 @@
 Package: semTable
 Type: Package
 Title: Structural Equation Modeling Tables
-Version: 1.7
-Date: 2020-04-12
+Version: 1.8
+Date: 2020-04-29
 Authors@R: c(person("Paul","Johnson",email="pauljohn@ku.edu",role = c("aut", "cre")),
 		   person("Benjamin","Kite",email="bakite@ku.edu",role="aut"))
 Maintainer: Paul Johnson <pauljohn@ku.edu>
@@ -15,12 +15,12 @@ License: GPL-2
 Depends: R (>= 3.0)
 Imports: stats, utils, kutils, xtable, lavaan, plyr, stationery
 Suggests: rockchalk
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.0
 LazyData: TRUE
 VignetteBuilder: stationery
 NeedsCompilation: no
-Packaged: 2020-04-12 17:21:45 UTC; pauljohn
+Packaged: 2020-04-29 17:57:11 UTC; pauljohn
 Author: Paul Johnson [aut, cre],
   Benjamin Kite [aut]
 Repository: CRAN
-Date/Publication: 2020-04-12 18:30:02 UTC
+Date/Publication: 2020-04-29 18:20:02 UTC
